@@ -115,6 +115,40 @@ main hr {
   align-self: center;
   margin: 60px 100px;
 }
+
+.secondsection{
+  max-width: 80vw;
+  margin: auto;
+  align-content: center;
+
+}
+/* .seconsetion{
+  width:33.33%;
+  padding: 10%;
+} */
+
+.projecttype h5{
+  margin-left: 10px;
+  color: #9c97f1;
+
+}
+.project{
+  display:flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.project-details{
+  background-color: white;
+  align-content: center;
+  margin-left:5%;
+  width: 33%;
+  padding:1%;
+  border-width: 2px;
+  border-color: #9c97f1;
+  color: aqua;
+}
+
 .thirdsection {
   max-width: 80vw;
   margin: auto;
@@ -122,6 +156,7 @@ main hr {
 }
 
 .textgrey {
+  text-decoration: solid;
   color: grey;
 }
 
@@ -213,6 +248,12 @@ footer .footer2{
 .footer2 ul{
     list-style: none;
     text-align: center;
+}
+
+.footer2 ul:hover{
+  list-style: none;
+  text-align: center;
+  color: #486ed3;
 }
 
 footer .text-center-top{
