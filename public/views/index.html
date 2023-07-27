@@ -14,46 +14,63 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="left"><a href="/">Portfolio</a> </div>
+      <nav id="top">
+        <div class="left"><a href="/">Portfolio</a></div>
         <div class="right">
           <ul>
             <li><a href="#section2">Projects</a></li>
-            <li><div class=" dropdown"><div class="dropdownbtn"> Profiles
-              <div class="dropdown-content">
-                <a href="https://www.linkedin.com/in/prathaverma/"><img src="../sources/github_icon.png" alt="github profile"/></a>
-                <a href="https://www.linkedin.com/in/prathaverma/"><img src="../sources/linkedin_icon.png" alt="linkedin profile"/></a>
-              </div></div></div></li>
-            <li><a href="/">About</a></li>
+            <li><a href="#section3">Experience</a></li>
+            <li>
+              <div class="dropdown">
+                <div class="dropdownbtn">
+                  Profiles
+                  <div class="dropdown-content">
+                    <a href="https://www.linkedin.com/in/prathaverma/"
+                      ><img
+                        src="../sources/github_icon.png"
+                        alt="github profile"
+                    /></a>
+                    <a href="https://www.linkedin.com/in/prathaverma/"
+                      ><img
+                        src="../sources/linkedin_icon.png"
+                        alt="linkedin profile"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#section4">Contacts</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-
       <section class="firstsection" id="section1">
         <div class="leftsection">
           Hi! My name is <span class="purple">Pratha.</span>
-          <div>I am a </div>
+          <div>I am a</div>
           <span id="element"></span>
           <div>
-            <a href="../sources/Pratha_Verma_Resume.pdf" download="Pratha_Verma_Resume.pdf"><button class="btn">Download Resume</button></a>
+            <a
+              href="../sources/Pratha_Verma_Resume.pdf"
+              download="Pratha_Verma_Resume.pdf"
+              ><button class="btn">Download Resume</button></a
+            >
           </div>
         </div>
         <div class="rightsection">
           <img src="../sources/developer.png" alt="" />
         </div>
       </section>
-      <hr />
+      <hr id="section2" />
 
-
-      <section class="secondsection" id="section2">
+      <section class="secondsection">
         <span class="textgrey"> PROJECTS </span>
       </section>
 
-      <hr />
+      <hr id="section3" />
 
-      <section class="thirdsection" id="section3">
+      <section class="thirdsection">
         <span class="textgrey"> Work Experience </span>
         <div class="box">
           <div class="vertical">
@@ -63,10 +80,13 @@
               class="imgtop"
             />
             <div class="vertical-title">
-              Software Developer Intern<br /><div class="vertical-title-company">STCO ProjExcel Pvt. Lmt.</div><span>(Jun'23-Jul'23)</span>
+              Software Developer Intern<br />
+              <div class="vertical-title-company">STCO ProjExcel Pvt. Lmt.</div>
+              <span>(Jun'23-Jul'23)</span>
             </div>
             <div class="vertical-desc">
-              Learnt the application of theorical knowledge of APIs, Express, MongoDB, SQL to real-world scenarios.
+              Learnt the application of theorical knowledge of APIs, Express,
+              MongoDB, SQL to real-world scenarios.
             </div>
           </div>
           <div class="vertical">
@@ -76,10 +96,13 @@
               class="imgtop"
             />
             <div class="vertical-title">
-              Subject Matter Expert (Mathematics)<br /><div class="vertical-title-company">Fullscore Pvt. Lmt.</div><span>(Nov'21-Feb'22)</span>
+              Subject Matter Expert (Mathematics)<br />
+              <div class="vertical-title-company">Fullscore Pvt. Lmt.</div>
+              <span>(Nov'21-Feb'22)</span>
             </div>
             <div class="vertical-desc">
-              Used tools like LaTex to analyse critical mathematical problems and solve them with accuracy.
+              Used tools like LaTex to analyse critical mathematical problems
+              and solve them with accuracy.
             </div>
           </div>
           <div class="vertical">
@@ -96,34 +119,36 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="section4">
+      <div class="text-center-top"><h2>Contact Me</h2></div>
+      <div class="text-center-top"><p></p></div>
       <div class="flex">
         <div class="footer1">
-          <h3>Portfolio</h3>
+          <img src="../sources/footer/me.png" />
         </div>
         <div class="footer2">
           <ul>
-            <li>home</li>
-            <li>About</li>
-            <li>Services</li>
+            <li><a href=""><img src="../sources/footer/github.png"/> </a> </li>
+            <li>Github</li>
           </ul>
         </div>
-        <div class="footer3">
+        <div class="footer2">
           <ul>
-            <li>home</li>
-            <li>About</li>
-            <li>Services</li>
+            <li><a href=""><img src="../sources/footer/linkedin.png"/> </a> </li>
+            <li>linkedin</li>
           </ul>
         </div>
-        <div class="footer4">
+        <div class="footer2">
           <ul>
-            <li>home</li>
-            <li>About</li>
-            <li>Services</li>
+            <li><a href="www.instagra.com/pratha0711_"><img src="../sources/footer/insta.png"/> </a> </li>
+            <li>Instagram</li>
           </ul>
         </div>
       </div>
-      <div class="text-center">www.portfolio.com</div>
+      <div class="text-center-bottom">www.portfolio.com</div>
+      <span class="top-botton">
+        <a href="#top"><img src="../sources/top_arrow.png" width="50px"/> </a>
+      </span>
     </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -133,7 +158,7 @@
           "Backend Developer.",
           "Frontend Developer.",
           "Orator.",
-          "Mathematics Expert."
+          "Mathematics Expert.",
         ],
         typeSpeed: 50,
       });
